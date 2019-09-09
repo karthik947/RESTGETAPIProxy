@@ -22,7 +22,7 @@ function fetchAPI(req,res){
                continue;
             }
             else{
-               parameters['endpoint'] += '?' + keys + '=' + parameters[keys];
+               parameters['endpoint'] += '&' + keys + '=' + parameters[keys];
             }
         }
 
